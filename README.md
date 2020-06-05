@@ -3,6 +3,7 @@
 
 ## First Pass
 INPUT ('assembler_code.txt' file):
+
     START 1000
     READ R
     MOVER BREG, ='7'
@@ -27,6 +28,7 @@ INPUT ('assembler_code.txt' file):
     END
     
 OUTPUT ('pass1.txt' file):
+
     (AD,1) (C,1000) 
     1000) (IS,9) (S,1) 
     1001) (IS,4) (2) (L,1) 
